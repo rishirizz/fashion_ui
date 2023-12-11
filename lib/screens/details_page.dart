@@ -130,12 +130,12 @@ class _ShowDetailsPageState extends State<ShowDetailsPage> {
                                   const SizedBox(
                                     width: 10,
                                   ),
-                                  Text(
+                                  const Text(
                                     'October 17th, 2023, 8 PM',
                                     style: TextStyle(
                                       fontFamily: 'Montserrat',
                                       fontWeight: FontWeight.w600,
-                                      color: kSecondaryColor,
+                                      color: Colors.white54,
                                     ),
                                   ),
                                 ],
@@ -203,17 +203,17 @@ class _ShowDetailsPageState extends State<ShowDetailsPage> {
                               Align(
                                 alignment: Alignment.center,
                                 child: ElevatedButton(
-                                  style: ElevatedButton.styleFrom(
+                                  style: ElevatedButton.styleFrom(       
                                     backgroundColor: kSecondaryColor,
                                   ),
                                   onPressed: () {},
-                                  child: Padding(
-                                    padding: const EdgeInsets.symmetric(
+                                  child: const Padding(
+                                    padding: EdgeInsets.symmetric(
                                       horizontal: 20,
                                     ),
                                     child: Row(
                                       mainAxisSize: MainAxisSize.min,
-                                      children: const [
+                                      children: [
                                         Text(
                                           'Buy Ticket',
                                           style: TextStyle(

@@ -179,13 +179,13 @@ class _ModelDescriptionPageState extends State<ModelDescriptionPage> {
                                             backgroundColor: kSecondaryColor,
                                           ),
                                           onPressed: () {},
-                                          child: Padding(
-                                            padding: const EdgeInsets.symmetric(
+                                          child: const Padding(
+                                            padding: EdgeInsets.symmetric(
                                               horizontal: 20,
                                             ),
                                             child: Row(
                                               mainAxisSize: MainAxisSize.min,
-                                              children: const [
+                                              children: [
                                                 Text(
                                                   'Followed',
                                                   style: TextStyle(
